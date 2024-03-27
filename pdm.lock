@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:81ff71ea6f44155b645469f5b26c2b180859182c82d8ae0619acf9bed2534a4c"
+content_hash = "sha256:50c5ca1cf268e4518c99ac86334d4e11969d084ce54d19a852b4d27a4aa2192c"
 
 [[package]]
 name = "asgiref"
@@ -32,6 +32,20 @@ dependencies = [
 files = [
     {file = "Django-5.0.3-py3-none-any.whl", hash = "sha256:5c7d748ad113a81b2d44750ccc41edc14e933f56581683db548c9257e078cc83"},
     {file = "Django-5.0.3.tar.gz", hash = "sha256:5fb37580dcf4a262f9258c1f4373819aacca906431f505e4688e37f3a99195df"},
+]
+
+[[package]]
+name = "djangorestframework"
+version = "3.15.1"
+requires_python = ">=3.6"
+summary = "Web APIs for Django, made easy."
+groups = ["default"]
+dependencies = [
+    "django>=3.0",
+]
+files = [
+    {file = "djangorestframework-3.15.1-py3-none-any.whl", hash = "sha256:3ccc0475bce968608cf30d07fb17d8e52d1d7fc8bfe779c905463200750cbca6"},
+    {file = "djangorestframework-3.15.1.tar.gz", hash = "sha256:f88fad74183dfc7144b2756d0d2ac716ea5b4c7c9840995ac3bfd8ec034333c1"},
 ]
 
 [[package]]
